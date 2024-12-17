@@ -43,8 +43,7 @@ function getLength(numbers) {
 
 
 function getSum(numbers) {
-  return
-  // TODO
+ return number.reduce((sum,num) =>sum +num, 0); 
 }
 
 
