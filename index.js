@@ -34,64 +34,49 @@ console.log(`The odd numbers you gave are ${getOdds(numbers)}.`);
 
 /**
  * @param {number[]} numbers an array of integers
- * @returns {number} the length of the array
+ * @returns {number} the length of the array\
  */
 function getLength(numbers) {
+  return numbers.length;
   // TODO
 }
 
-/**
- * @param {number[]} numbers an array of integers
- * @returns {number} the sum of the numbers
- */
+
 function getSum(numbers) {
+  return
   // TODO
 }
 
-/**
- * @param {number[]} numbers an array of integers
- * @returns {number} the mean of the numbers
- */
-function getMean(numbers) {
-  // TODO
+
+function getMean(numbers) { //Sum div by # of numbers
+  return getSum(numbers) / getLength(numbers);
+
 }
 
-/**
- * @param {number[]} numbers an array of integers
- * @returns {number} the smallest of the numbers
- */
-function getMin(numbers) {
-  // TODO
+
+function getMin(numbers) { //math function and dots ?
+  return Math.min(...numbers);
+  
 }
 
-/**
- * @param {number[]} numbers an array of integers
- * @returns {number} the largest of the numbers
- */
 function getMax(numbers) {
-  // TODO
+  return Math.max(...numbers);
+ 
 }
 
-/**
- * @param {number[]} numbers an array of integers
- * @returns {number} the range of the numbers (max - min)
- */
-function getRange(numbers) {
-  // TODO
+
+function getRange(numbers) { //diff between max & min
+  return getMax(numbers) - getMin (numbers);
 }
 
-/**
- * @param {number[]} numbers an array of integers
- * @returns {number[]} the even numbers in the array
- */
+
+
+//USING FILTERS
 function getEvens(numbers) {
   // TODO
 }
 
-/**
- * @param {number[]} numbers an array of integers
- * @returns {number[]} the odd numbers in the array
- */
+
 function getOdds(numbers) {
   // TODO
 }
