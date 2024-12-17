@@ -73,10 +73,10 @@ function getRange(numbers) { //diff between max & min
 
 //USING FILTERS
 function getEvens(numbers) {
-  // TODO
+     return numbers.filter(x => x % 2 === 0 );// TODO
 }
 
 
 function getOdds(numbers) {
-  // TODO
+    return number.filter(x => x % 2 !== 0)// TODO
 }
